@@ -1,5 +1,5 @@
 
-<!-- 🌐 Project: XOOM QUOTES – Insurance Website -->
+🌐 Project: XOOM QUOTES – Insurance Website
 
 XOOM QUOTES is a modern, responsive insurance website built using HTML5, CSS3, and Bootstrap. The site provides users with a streamlined platform to explore various insurance categories and request personalized quotes, all from any device—desktop, tablet, or mobile.
 
@@ -12,7 +12,7 @@ XOOM QUOTES is a modern, responsive insurance website built using HTML5, CSS3, a
 3. Bootstrap – Responsive grid system and pre-built UI components for rapid development and mobile-first design.
 
 
-<!-- 📱 Key Features: -->
+📱 Key Features:
 
 ✅ Fully Responsive Design – Optimized layout across all screen sizes.
 
@@ -29,7 +29,7 @@ XOOM QUOTES is a modern, responsive insurance website built using HTML5, CSS3, a
 ✅ Mobile-First Design – Touch-friendly buttons and layouts using Bootstrap’s grid system.
 
 
-<!-- 🚀 Future Enhancements (Planned or Suggested): -->
+🚀 Future Enhancements (Planned or Suggested):
 
 🔄 Backend Integration (e.g., with PHP, Node.js, or Firebase) for real-time quote submissions.
 
