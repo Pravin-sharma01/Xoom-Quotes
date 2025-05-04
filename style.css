@@ -1,0 +1,369 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* This is Body Section */
+
+body {
+  background: linear-gradient(90deg, #dfeafb, #fff0e9);
+}
+/* This is Navbar Part of Web page 1 */
+
+/* This is Logo section Navbar */
+
+h4::first-line {
+  color: #1973e8;
+}
+
+h4 span {
+  color: #fb760a;
+}
+
+/* This is Navbar of Company's section of  Web page 1*/
+
+.section {
+  background: white;
+  border: 0.05rem solid #ececec !important;
+}
+
+/* This is Navbar section of login Button */
+
+.login >button:first-of-type{
+  background-color: #1973e8;
+}
+
+/* This is Navbar section of login Button */
+
+.login button:last-child{
+  background-color: #fb760a;
+}
+
+/* This is 1st Section page of left side */
+
+.para p:first-child {
+  font-size: 5.5vw;
+}
+
+/* This is for email input of 1st Section page of left side */
+
+form {
+  background-color: transparent;
+}
+
+.container .email {
+  background: transparent;
+}
+
+label input {
+  height: 3.5rem;
+  background: transparent;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: black;
+}
+
+.ri-mail-download-line {
+  font-size: 1.5rem;
+}
+
+
+/* This is 2nd Section of main Web Page 1 */
+
+.carousel-item img {
+  height: 50vh;
+  object-fit: contain;
+  width: 100%;
+}
+/* This is the 1st section of icons types of Insurance of 2nd Web Page */
+
+.type {
+  height: 4rem;
+  align-items: center;
+  background-color: #ececec;
+}
+ /* This is hover effects of icons on insurance icon */
+
+.type .home:hover {
+  background-color: #fb760a;
+  color: white;
+  border-radius: 0.5rem;
+}
+.type .car:hover {
+  background-color: #fb760a;
+  color: white;
+  border-radius: 0.5rem;
+}
+.type .life:hover {
+  background-color: #fb760a;
+  color: white;
+  border-radius: 0.5rem;
+}
+.type .farm:hover {
+  background-color: #fb760a;
+  color: white;
+  border-radius: 0.5rem;
+}
+.type .comm:hover {
+  background-color: #fb760a;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.type i {
+  font-size: 1.5rem;
+}
+.type span {
+  font-size: 1.2rem;
+}
+
+/* This is the 2nd section of Invested company in 2nd Web Page */
+
+.company {
+  height: 12rem;
+  width: 100%;
+  background-color: #f0f8ff;
+}
+
+.insctype {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.type1 {
+  position: absolute;
+  top: -2rem;
+}
+
+/* This is 3rd Section of main Web Page about Insurance*/
+
+/* <!-- This is the header about Insurance --> */
+
+.package{
+    height: 35vw;
+    background-color: #ececec;
+}
+
+/* This is the header-items about Insurance */
+
+.basic, .standard, .premium, .custom{
+    height: 19rem;
+    width: 16rem;
+}
+
+.container-2 button{
+    font-size: 0.8rem;
+}
+
+/* This is hover effects of Header items of About Insurance */
+
+.info .basic:hover{
+    box-shadow: 0rem 0.3rem #1973e8;
+}
+
+.info .standard:hover{
+    box-shadow: 0rem 0.3rem #1973e8;
+}
+
+.info .premium:hover{
+    box-shadow: 0rem 0.3rem #1973e8;
+}
+
+.info .custom:hover{
+    box-shadow: 0rem 0.3rem #1973e8;
+}
+
+/* This is hover effects of Header items button of About Insurance */
+
+.content-1 button:hover{
+    background-color: #fb760a !important;
+    color: white !important;
+    border-radius: 0.5rem;
+    padding:1rem;
+    font-weight: 500;
+}
+.content-2 button:hover{
+    background-color: #fb760a !important;
+    color: white !important;
+    border-radius: 0.5rem;
+    padding:1rem;
+    font-weight: 500;
+}
+.content-3 button:hover{
+    background-color: #fb760a !important;
+    color: white !important;
+    border-radius: 0.5rem;
+    padding:1rem;
+    font-weight: 500;
+}
+.content-4 button:hover{
+    background-color: #fb760a !important;
+    color: white !important;
+    border-radius: 0.5rem;
+    padding:1rem;
+    font-weight: 500;
+}
+
+/* This is Navbar Button of Hamburger */
+.offcanvas{
+    width: 70% !important;
+}
+/* This is list item under the Hamburger section of Navbar */
+.nav-item{
+    width: 100% !important;
+}
+/* This is under the Login & signup page */
+input{
+    width: 100% !important;
+}
+
+/* This is user logo under the login form */
+.name i{
+    font-size:1.8rem ;
+    padding: 0.2rem 0.4rem;
+}
+/* This is Password logo under the login form */
+.pass i{
+    font-size:1.8rem ;
+    padding: 0.2rem 0.4rem;
+}
+
+/* This is Instant quote Button under the hamburger of Navbar */
+.button1 >button:last-child{
+  background-color: #fb760a;
+}
+ /* This is hover effect under Navbar Button of Hamburger */
+.nav-link:hover{
+  background-color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+
+/* This is 4th Section of main Web Page about Reviews*/
+
+.review{
+  height: 30vw;
+  background-color: #fff0e9;
+  width: auto;
+}
+
+/* This is Left & right button */
+
+.contreview-2 button:hover{
+  background-color: #fb760a !important;
+  color:white;
+  box-shadow: 0px 2px 20px rgb(162, 161, 161);
+}
+
+/* This is the review card item */
+
+.card1{
+  width: 19rem;
+  box-shadow: 10px 10px 20px rgb(162, 161, 161);
+}
+
+/* This is the height & width of the review user image */
+
+.card1 img{
+  height: 2.5rem ;
+  width: 2.5rem;
+}
+
+/* This is the font-size of review user  */
+
+.aboutreview p{
+  font-size: 0.8rem;
+  word-spacing: -0.02rem;
+}
+
+.reviewer span{
+  font-size: 0.8rem;
+  word-spacing: -0.02rem;
+}
+
+/* This is the rating of review user */
+
+.star i{
+  color: #fb760a;
+}
+
+/* This is animation of Left & right button of review section */
+
+.carousel-indicators button{
+  background-color:orange !important;
+  filter: invert(1);
+  height: 0.2rem !important;
+}
+
+/*  This is 5th Section of main Web Page about FAQ */
+
+.Faq{
+  background: linear-gradient(90deg,#e9e9e9, #dfeafb);
+  height: 56rem;
+}
+
+/* This is font size of FAQ items */
+
+.accordion-body{
+  font-size: 0.8rem;
+}
+
+/* This is onclick event that was happen in FAQ close button */
+
+.accordion-button:focus {
+  border-color: white !important; 
+  box-shadow: none; 
+  background-color: white;          
+}
+
+/* This is the Hover effect on FAQ */
+
+.accordion-item:hover {
+  box-shadow: 0.3rem 0.3rem 0.1rem #1973e8;
+}
+
+/* This is Form Section above footer */
+
+/*  <!-- This is the Get A Quote form in footer section --> */
+
+.form .formtext{
+  height: 25rem !important; 
+}
+
+.form{
+  width: calc(100% - 25%);
+  top: -12rem;
+}
+
+.form-group #submit{
+  background-color: #fb760a;
+}
+
+.form-group input{
+  padding: 0.8rem 1rem ;
+}
+
+/* This is Footer part of Web Page */
+
+.footercontainer{
+  margin-top: 25rem;
+}
+
+/* This is Social Media Accounts of Company */
+.socialmedia .icon{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;  
+}
+
+
+
+
+
+
+
+
+
+
+
+

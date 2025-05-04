@@ -1,0 +1,866 @@
+/* This Media Query for xs */
+
+@media (max-width: 576px) {
+
+      /* This is Navbar of Company's section of  Web page 1 */
+
+    .navbar-toggler {
+    background: lavender;
+    border: 0.1rem solid lightsalmon !important;
+  }
+
+  /* This is hamburger */
+
+  .ri-menu-3-fill {
+    font-size: 1.8rem;
+    color: #1973e8;
+  }
+
+  /* This is 1st Section page of left side */
+
+  .para p:first-child {
+    font-size: 12vw;
+    font-weight: 650;
+  }
+  .para p:last-of-type {
+    font-size: 2vw;
+    font-weight: 400;
+  }
+
+  /* This is for login page */
+
+  .type {
+    height: 13rem;
+    width: 80%;
+    border-radius: 1rem !important;
+    align-items: center;
+    background-color: #ececec;
+  }
+
+  .type i {
+    font-size: 1rem;
+  }
+  .type span {
+    font-size: 1rem;
+  }
+
+  /* This is 2nd Section of main Web Page */
+
+  .insctype {
+    margin-top: 10rem !important;
+    position: relative;
+  }
+  .type1 {
+    position: absolute;
+    top: -7rem;
+  }
+
+  /* This is the 2nd section of Invested company in 2nd Web Page */
+
+  .company .container {
+    margin-top: 2.5rem;
+  }
+  .company {
+    height: 20rem;
+    width: 100%;
+    background-color: #f0f8ff;
+  }
+  .company i {
+    font-size: 1.8rem !important;
+  }
+
+  .company p {
+    font-size: 1.5rem !important;
+  }
+
+
+  /* This is 3rd Section of main Web Page about Insurance */
+
+  /* This is the header about Insurance */
+
+  .package {
+    height: 90rem;
+    background-color: #ececec;
+  }
+  
+/* This is the items of about insurance */
+
+  .basic,
+  .standard,
+  .premium,
+  .custom {
+    height: 17rem;
+    width: 20rem;
+  }
+
+  .info {
+    display: flex;
+    gap: 1.5rem !important;
+  }
+
+  .icon > i {
+    font-size: 2rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .content-1 > p:first-child {
+    font-size: 1.4rem !important;
+  }
+  .content-2 > p:first-child {
+    font-size: 1.4rem !important;
+  }
+  .content-3 > p:first-child {
+    font-size: 1.4rem !important;
+  }
+  .content-4 > p:first-child {
+    font-size: 1.4rem !important;
+  }
+
+  .content-1 > p:nth-child(2) {
+    font-size: 0.8rem !important;
+  }
+  .content-2 > p:nth-child(2) {
+    font-size: 0.8rem !important;
+  }
+  .content-3 > p:nth-child(2) {
+    font-size: 0.8rem !important;
+  }
+  .content-4 > p:nth-child(2) {
+    font-size: 0.8rem !important;
+  }
+
+  /* This is 4th Section of main Web Page about Reviews */
+
+  /* This is Header of Review section */
+
+  .review {
+    height: auto;
+    background-color: #fff0e9;
+    width: auto;
+  }
+
+  /* This is the review user of 1st slide */
+
+  .R1 {
+    margin: 3rem 0px !important;
+  }
+
+  /* This is Left & right button on the corner of review page */
+
+  .left-right {
+    margin: 1rem 0px !important;
+  }
+
+  .ri-arrow-left-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+
+/* This is the review card item */
+
+  .card1 {
+    width: 19rem;
+    box-shadow: 0.1px 0.1px 30px rgb(162, 161, 161);
+  }
+
+  /* This is the height & width of the review user image  */
+
+  .card1 img {
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+/* This is the font-size of review user */
+  .aboutreview p {
+    font-size: 0.8rem;
+    word-spacing: -0.02rem;
+  }
+
+  .reviewer span {
+    font-size: 0.8rem;
+    word-spacing: -0.02rem;
+  }
+
+  /* This is 5th Section of main Web Page about FAQ */
+
+  .Faq{
+    background: linear-gradient(90deg,#e9e9e9, #dfeafb);
+    height: 75rem !important;
+  }
+  /* Review Close button */
+.accordion-button{
+    font-size: 0.8rem !important;
+}
+
+/* This is the Header of FAQ */
+.accordion-body{
+    font-size: 0.6rem;
+  }
+/* his is the Header items of FAQ */
+  .accordion-item{
+    padding: 0.5rem !important;
+  }
+
+  /* This is Footer of main Web Page */
+
+  /* This is the Get A Quote form in footer section  */
+
+  .formtext p:first-child{
+    font-size: 1.2rem !important;
+  }
+
+  .formtext p:last-child{
+    font-size: 0.8rem !important;
+    line-height: 1.2rem;
+  }
+  
+  .form-group #submit{
+    background-color: #fb760a;
+  }
+  
+  .form-group input{
+    padding: 0.6rem 0.8rem !important;
+  }
+
+  .form-group label{
+    font-size: 1rem !important;
+  }
+
+  .form .formtext{
+    height: 22rem !important; 
+  }
+  
+  .form{
+    width: calc(100% - 1.5rem);
+    top: -20rem;
+  }
+  
+  .form-group #submit{
+    background-color: #fb760a;
+  }
+  .form-group input{
+    padding: 0.8rem 1rem ;
+  }
+
+  .form .formtext{
+    height: 38rem !important;
+    padding: 2rem;
+  }
+
+  /* This is Footer part of Web Page  */
+
+  .footercontainer{
+    display: flex;
+    gap: 5rem ;
+  }
+
+  /* This is Company logo in Footer Section */
+
+  .footerlogo{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+.socialtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socialtext p{
+    font-size: 0.8rem !important;
+  }
+
+/* This is Social Media Accounts of Company */
+
+.socialmedia{
+    text-align: center;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+}
+  .socialmedia .icon1{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;  
+  }
+
+  .icon1 i{
+    font-size: 0.8rem !important;
+  }
+  
+  .socialmedia span{
+    font-size: 0.8rem !important;
+  }
+
+  .socialmedia p{
+    font-size: 0.8rem !important;
+  }
+
+}
+
+/* This Media Query for sm */
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* This is Navbar of Company's section of  Web page 1 */
+
+  .navbar-toggler {
+    background: lavender;
+    border: 0.1rem solid lightsalmon !important;
+  }
+
+  /* This is hamburger */
+
+  .ri-menu-3-fill {
+    font-size: 2rem;
+    color: #1973e8;
+  }
+
+ /* This is 1st Section page of left side */
+
+  .para p:first-child {
+    font-size: 12vw;
+    font-weight: 650;
+  }
+
+  .para p:last-of-type {
+    font-size: 2vw;
+    font-weight: 400;
+  }
+
+   /* This is for login page */ 
+
+  .type i {
+    font-size: 0.8rem;
+  }
+  .type span {
+    font-size: 0.8rem;
+  }
+
+/* This is the 2nd section of Invested company in 2nd Web Page */
+
+  .company {
+    height: 8rem;
+    width: 100%;
+  }
+  .company i {
+    font-size: 1.4rem !important;
+  }
+
+  .company p {
+    font-size: 1.2rem !important;
+  }
+
+  /* This is 3rd Section of main Web Page about Insurance */
+
+  /* This is the header about Insurance */
+
+  .package {
+    height: 48rem;
+    background-color: #ececec;
+  }
+
+  /* This is the items of about insurance */
+
+  .basic,
+  .standard,
+  .premium,
+  .custom {
+    height: 16rem;
+    width: 13rem;
+  }
+
+  .info {
+    display: flex;
+    gap: 1.5rem !important;
+  }
+
+  .icon > i {
+    font-size: 1.8rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .content-1 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+  .content-2 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+  .content-3 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+  .content-4 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+
+  .content-1 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+  .content-2 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+  .content-3 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+  .content-4 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+
+    /* This is 4th Section of main Web Page about Reviews */
+
+  /* This is Header of Review section */
+
+  .review {
+    height: 66rem;
+    background-color: #fff0e9;
+    width: auto;
+  }
+
+  /* This is the review user of 1st slide */
+
+  .R1 {
+    margin: 3rem 0px !important;
+  }
+
+    /* This is Left & right button on the corner of review page */
+
+  .ri-arrow-left-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+
+/* This is the review card item */
+
+  .card1 {
+    width: 25rem;
+    box-shadow: 0.1px 0.1px 30px rgb(162, 161, 161);
+  }
+
+    /* This is the height & width of the review user image  */
+
+  .card1 img {
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+/* This is the font-size of review user */
+  .aboutreview p {
+    font-size: 0.8rem;
+    word-spacing: -0.02rem;
+  }
+
+  /* This is the font-size of review user */
+
+  .reviewer span {
+    font-size: 0.8rem;
+    word-spacing: -0.02rem;
+  }
+
+  /* This is 5th Section of main Web Page about FAQ */
+
+  .Faq{
+    background: linear-gradient(90deg,#e9e9e9, #dfeafb);
+    height: 64rem !important;
+  }
+
+/* This is Footer of main Web Page */
+
+  /* This is the Get A Quote form in footer section  */
+
+  .form .formtext{
+    height: 25rem !important; 
+  }
+  
+  .form{
+    width: calc(100%-10%);
+    top: -18rem;
+  }
+
+  .form .formtext{
+    height: 38rem !important;
+    padding: 2rem;
+  }
+
+  /* This is Footer part of Web Page  */
+
+  .footercontainer{
+    display: flex;
+    gap: 5rem ;
+  }
+
+   /* This is Company logo in Footer Section */
+
+  .footerlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is Social Media Accounts of Company */
+
+.socialmedia{
+    text-align: center;
+}
+.socialmedia .icon1{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;  
+  }
+  .icon1 i{
+    font-size: 1.2rem !important;
+  }
+
+}
+
+/* This Media Query for md */
+
+@media (min-width: 769px) and (max-width: 992px) {
+ /* This is Navbar of Company's section of  Web page 1 */
+
+  .navbar-toggler {
+    background: lavender;
+    border: 0.1rem solid lightsalmon !important;
+  }
+
+  /* This is hamburger */
+
+  .ri-menu-3-fill {
+    font-size: 2rem;
+    color: #1973e8;
+  }
+  /* This is 1st Section page of left side */
+
+  .para p:first-child {
+    font-size: 12vw;
+    font-weight: 650;
+  }
+
+  .para p:last-of-type {
+    font-size: 2vw;
+    font-weight: 400;
+  }
+
+  /* This is for login page */
+
+  .type i {
+    font-size: 1rem;
+  }
+  .type span {
+    font-size: 1rem;
+  }
+
+     /* This is the 2nd section of Invested company in 2nd Web Page */
+
+  .company i {
+    font-size: 1.8rem !important;
+  }
+
+  .company p {
+    font-size: 1.5rem !important;
+  }
+
+  /* This is 3rd Section of main Web Page about Insurance */
+
+  /* This is the header about Insurance */
+
+  .package {
+    height: 56rem;
+    background-color: #ececec;
+  }
+
+    /* This is 4th Section of main Web Page about Reviews */
+
+  /* This is Header of Review section */
+
+  .review {
+    height: 43rem;
+    background-color: #fff0e9;
+    width: auto;
+  }
+
+    /* This is the review user of 1st slide */
+
+  .R1 {
+    margin: 3rem 0px !important;
+  }
+
+  /* This is Left & right button on the corner of review page */
+
+  .ri-arrow-left-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+
+  /* This is the review card item */
+
+  .card1 {
+    width: 22rem;
+    box-shadow: 0.1px 0.1px 30px rgb(162, 161, 161);
+  }
+
+  /* This is the height & width of the review user image  */
+
+  .card1 img {
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+
+  /* This is Footer of main Web Page */
+
+  /* This is the Get A Quote form in footer section  */
+
+  .form .formtext{
+    height: 25rem !important; 
+  }
+  
+  .form{
+    width: calc(100%-10%);
+    top: -12rem;
+  }
+
+/* This is Social Media Accounts of Company */
+
+  .socialmedia .icon{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;  
+  }
+
+  .icon i{
+    font-size: 1.2rem !important;
+  }
+  
+  .socialmedia span{
+    font-size: 0.8rem !important;
+  }
+
+  .socialtext p{
+    font-size: 0.8rem !important;
+  }
+
+  .socialmedia p{
+    font-size: 0.8rem !important;
+  }
+
+
+}
+
+/* This Media Query for lg */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    /* This is 3rd Section of main Web Page about Insurance */
+
+    /* This is the header about Insurance */
+
+  .package {
+    height: 48vw;
+    background-color: #ececec;
+  }
+
+  /* This is the items of about insurance */
+
+  .basic,
+  .standard,
+  .premium,
+  .custom {
+    height: 16rem;
+    width: 13rem;
+  }
+
+  .info {
+    display: flex;
+    gap: 1.5rem !important;
+  }
+
+  .icon > i {
+    font-size: 1.8rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .content-1 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+  .content-2 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+  .content-3 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+  .content-4 > p:first-child {
+    font-size: 1.2rem !important;
+  }
+
+  .content-1 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+  .content-2 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+  .content-3 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+  .content-4 > p:nth-child(2) {
+    font-size: 1rem !important;
+  }
+
+  /* This is 4th Section of main Web Page about Reviews */
+
+  /* This is Header of Review section */
+
+   .review {
+    height: 43rem;
+    background-color: #fff0e9;
+    width: auto;
+  }
+
+    /* This is the review user of 1st slide */
+
+  .R1 {
+    margin: 3rem 0px !important;
+  }
+
+    /* This is Left & right button on the corner of review page */
+
+  .ri-arrow-left-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem !important;
+    padding: 0.4rem !important;
+  }
+
+/* This is the review card item */
+
+  .card1 {
+    width: 26rem;
+    box-shadow: 0.1px 0.1px 30px rgb(162, 161, 161);
+  }
+
+    /* This is the height & width of the review user image  */
+    
+  .card1 img {
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+
+  /* This is Footer of main Web Page */
+
+  /* This is the Get A Quote form in footer section  */
+
+  .form .formtext{
+    height: 25rem !important; 
+  }
+  
+  .form{
+    width: calc(100%-10%);
+    top: -12rem;
+  }
+
+  /* This is Footer part of Web Page  */
+
+  /* This is Company logo in Footer Section */
+
+  .socialmedia .icon1{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;  
+  }
+
+  .icon1 i{
+    font-size: 1.2rem !important;
+  }
+  
+  .socialmedia span{
+    font-size: 0.8rem !important;
+  }
+
+  .socialtext p{
+    font-size: 0.8rem !important;
+  }
+
+  .socialmedia p{
+    font-size: 0.8rem !important;
+  }
+
+}
+
+/* This Media Query for xl */
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+  /* This is 3rd Section of main Web Page about Insurance */
+
+  /* This is the header about Insurance */
+
+  .package {
+    height: 44vw;
+    background-color: #ececec;
+  }
+
+  .info {
+    display: flex;
+    gap: 1.4rem !important;
+  }
+
+    /* This is 4th Section of main Web Page about Reviews */
+
+  /* This is the Get A Quote form in footer section  */
+
+   .review {
+    height: 44rem;
+    background-color: #fff0e9;
+    width: auto;
+  }
+
+  /* This is the review card item */
+
+  .card1 {
+    width: 22rem;
+    box-shadow: 0.1px 0.1px 30px rgb(162, 161, 161);
+  }
+
+    /* This is the height & width of the review user image  */
+
+  .card1 img {
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+
+  /* This is Footer of main Web Page */
+
+  /* This is the Get A Quote form in footer section  */
+
+  .form .formtext{
+    height: 25rem !important; 
+  }
+  
+  .form{
+    width: calc(100%);
+    top: -12rem;
+  }
+
+  .form .container{
+    width: calc(100% - 25rem) !important;  
+  }
+}
+
+/* This Media Query for xxl */
+
+@media (min-width: 1401px) and (max-width: 6000px) {
+
+}
